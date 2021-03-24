@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V19</title>
+	<title>Login Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="{{asset('p login/images/icons/favicon.ico')}}"/>
+	<link rel="icon" type="image/png" href="{{asset('img/PVG.png')}}"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('p login/vendor/bootstrap/css/bootstrap.min.css')}}">
 <!--===============================================================================================-->
@@ -46,7 +46,7 @@
                         </ul>
                     </div>
                     @endif
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.com">
                         @error('email')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
@@ -74,7 +74,7 @@
 						</button>
 					</div>
 
-					<div class="text-center">
+					{{-- <div class="text-center">
 						<span class="txt1">
 							Buat akun baru?
 						</span>
@@ -82,7 +82,7 @@
 						<a href="#" class="txt2 hov1">
 							Daftar
 						</a>
-					</div>
+					</div> --}}
 				</form>
 			</div>
 		</div>
@@ -90,22 +90,22 @@
 
 
 
-<!--===============================================================================================-->
-	<script src="{{asset('login/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
-<!--===============================================================================================-->
-	<script src="{{asset('login/vendor/animsition/js/animsition.min.js')}}"></script>
-<!--===============================================================================================-->
-	<script src="{{asset('login/vendor/bootstrap/js/popper.js')}}"></script>
-	<script src="{{asset('login/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-<!--===============================================================================================-->
-	<script src="{{asset('login/vendor/select2/select2.min.js')}}"></script>
-<!--===============================================================================================-->
-	<script src="{{asset('login/vendor/daterangepicker/moment.min.js')}}"></script>
-	<script src="{{asset('login/vendor/daterangepicker/daterangepicker.js')}}"></script>
-<!--===============================================================================================-->
-	<script src="{{asset('login/vendor/countdowntime/countdowntime.js')}}"></script>
-<!--===============================================================================================-->
-	<script src="{{asset('login/js/main.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/vendor/animsition/js/animsition.min.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/vendor/bootstrap/js/popper.js')}}"></script>
+	<script src="{{asset('p login/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/vendor/select2/select2.min.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/vendor/daterangepicker/moment.min.js')}}"></script>
+	<script src="{{asset('p login/vendor/daterangepicker/daterangepicker.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/vendor/countdowntime/countdowntime.js')}}"></script>
+<!--=========================================================================================-->
+	<script src="{{asset('p login/js/main.js')}}"></script>
 
 </body>
 </html>

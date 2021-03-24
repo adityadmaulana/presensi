@@ -8,7 +8,7 @@ class AuthController extends Controller
 {
     public function index()
     {
-        return view ('login');
+        return view ('auth.login');
     }
     public function postlogin(Request $request)
     {
